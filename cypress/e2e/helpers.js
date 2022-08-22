@@ -72,7 +72,7 @@ export function generatePasswordAccordingToPolicy() {
     };
     let password = generator.generate(options)
     while (!/(?<chars>[A-Za-z]+)/gm.exec(password) ||
-    !/(?<digits>[\d]+)/gm.exec(password) ||
+    !/(?<digits>[0-9]+)/gm.exec(password) ||
     !/(?<symbols>[!@#$%^&*]+)/gm.exec(password)) {        // password = '^;uo..3^' nit passing some how - shorten the symbols to [!@#$%^&*]
         // !/(?<symbols>[!@#$%^&*()_+{}|}{\[\]\\.\":=,-~?><]+)/gm.exec(password)) {
         // console.log(`isMatchPolicy? ${password} does not match policy`)

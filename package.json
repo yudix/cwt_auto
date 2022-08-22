@@ -1,24 +1,22 @@
 {
   "name": "cwt_auto",
   "version": "1.0.0",
-  "description": "make sure you have all the system requirement for cypress System requirements. enter on cli on the cloned location:  npm install cypress --save-dev npm cy:run_tests for headless mode or  npm cy:open for interactive mode",
-  "main": "index.js",
+  "description": "cwt home assignment",
+  "author": "Yehuda Ginsburg",
   "scripts": {
     "cy:open": "cypress open",
     "cy:run": "cypress run --browser chrome"
   },
+  "homepage": "https://github.com/yudix/cwt_auto#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yudix/cwt_auto.git"
   },
-  "author": "Yehuda Ginsburg",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/yudix/cwt_auto/issues"
   },
-  "homepage": "https://github.com/yudix/cwt_auto#readme",
+  "license": "ISC",
   "devDependencies": {
-    "cy-iframe": "^1.1.2",
     "cypress": "^10.6.0",
     "generate-password": "^1.7.0"
   }
