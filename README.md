@@ -1,8 +1,7 @@
 # cwt_auto
-make sure you have all the system requirement for cypress System requirements.
-clone the project from HERE
-enter on cli on the cloned location: 
-npm install cypress --save-dev
-npx cy:run_tests for headless mode
-or 
-npx cypress open for interactive mode
+make sure you have all the system requirement for cypress [System requirements](https://docs.cypress.io/guides/getting-started/installing-cypress#System-requirements).</br>
+enter on cli on the cloned location: </br>
+npm install cypress --save-dev </br>
+npm cy:run for headless mode</br>
+or </br>
+npm cy:open for interactive mode</br>
